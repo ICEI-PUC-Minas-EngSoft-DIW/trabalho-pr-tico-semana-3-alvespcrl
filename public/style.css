@@ -9,8 +9,9 @@ html, body{
     align-items: stretch;
 }
 .direita{
-    background-color:rgb(161, 149, 149);
+    background-color:#F3F4F6;
     width: 80%;
+    padding: 10px;
 }
 
 .tudo p{
@@ -18,8 +19,7 @@ html, body{
     margin: 0px
 }
 .esquerda{
-    background-color:rgb(41, 0, 155);
-    border-right: solid 2px ;
+    background-color:#1E3A8A;;
     width: 20%;
 }
 header{
@@ -48,7 +48,6 @@ header{
     display: flex;
     gap: 40px;
 }
-
 .curso h4,
 .curso p{
     margin: 0;
@@ -64,5 +63,6 @@ header{
     justify-items: center;
 }
 .habilidades p{
-    color:white
+    color:white;
+    font-weight:500;
 }
