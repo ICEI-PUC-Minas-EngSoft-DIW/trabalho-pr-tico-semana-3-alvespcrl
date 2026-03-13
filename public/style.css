@@ -1,10 +1,68 @@
-.curso-topo{
-    display:flex;
-    justify-content: space-between;
+html, body{
+    height: 100%;
+    margin:0;
+}
+.tudo{
+    min-height: 100vh;
+    gap:20px;
+    display: flex;
+    align-items: stretch;
+}
+.direita{
+    background-color:rgb(161, 149, 149);
+    width: 80%;
 }
 
+.tudo p{
+    display: flex;
+    margin: 0px
+}
+.esquerda{
+    background-color:rgb(41, 0, 155);
+    border-right: solid 2px ;
+    width: 20%;
+}
+header{
+    margin-top: 50px;
+}
+
+.topo{
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.informacoes{
+    margin-top: 10px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.contato{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.curso-topo{
+    display: flex;
+    gap: 40px;
+}
 
 .curso h4,
 .curso p{
     margin: 0;
+}
+.avatar{
+    margin-top:50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.habilidades{
+    margin-top: 30px;
+    justify-items: center;
+}
+.habilidades p{
+    color:white
 }
