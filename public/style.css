@@ -1,0 +1,10 @@
+.curso-topo{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.curso h4,
+.curso p{
+    margin: 0;
+}
